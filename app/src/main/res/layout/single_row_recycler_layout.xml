@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="40"
+            android:layout_height="match_parent">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/owner_image"
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                app:civ_circle_background_color="@color/black"
+                android:layout_height="match_parent">
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="16"
+                android:layout_weight="30"
+                android:orientation="vertical">
+
+
+             <androidx.appcompat.widget.AppCompatTextView
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:id="@+id/title"
+                 android:textStyle="bold"
+                 android:maxLines="2"
+                 android:layout_weight="6">
+
+             </androidx.appcompat.widget.AppCompatTextView>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/owner_name"
+                    android:maxLines="2"
+                    android:layout_weight="5">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/posted_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:maxLines="2"
+                    android:layout_weight="5">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

@@ -3,7 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/FlobizAssignment/app/src/main/res/layout/activity_main.xml" value="0.20104166666666667" />
+        <entry key="..\:/FlobizAssignment/app/src/main/res/drawable/dialog_bg.xml" value="0.1745" />
+        <entry key="..\:/FlobizAssignment/app/src/main/res/drawable/edit_text_background.xml" value="0.156" />
+        <entry key="..\:/FlobizAssignment/app/src/main/res/drawable/filter_icon.xml" value="0.156" />
+        <entry key="..\:/FlobizAssignment/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.1745" />
+        <entry key="..\:/FlobizAssignment/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/FlobizAssignment/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.20104166666666667" />
+        <entry key="..\:/FlobizAssignment/app/src/main/res/layout/listactivity.xml" value="0.20104166666666667" />
+        <entry key="..\:/FlobizAssignment/app/src/main/res/layout/single_row_filter_recycler_layout.xml" value="0.20104166666666667" />
+        <entry key="..\:/FlobizAssignment/app/src/main/res/layout/single_row_recycler_layout.xml" value="0.20104166666666667" />
+        <entry key="..\:/FlobizAssignment/app/src/main/res/menu/search_menu.xml" value="0.20104166666666667" />
       </map>
     </option>
   </component>

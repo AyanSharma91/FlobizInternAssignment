@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FlobizAssignment</string>
+    <string name="search_bar">Search Bar</string>
 </resources>
